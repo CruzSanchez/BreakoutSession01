@@ -34,6 +34,7 @@ namespace BreakoutSession01ConsoleUI
 
 
             Console.WriteLine("Please enter a number to count to...");
+
             int userNumber = int.Parse(Console.ReadLine());
 
             UserCounter(userNumber);
